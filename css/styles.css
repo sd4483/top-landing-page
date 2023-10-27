@@ -11,14 +11,17 @@ header, footer {
     background-color: #1F2937;
 }
 
-header {
+header, footer {
     padding: 16px;
     display: flex;
     justify-content: center;
 }
 
+.nav, .hero-content, .information-content, .call-to-action-content {
+    width: 1024px;
+}
+
 .nav {
-    width: 1200px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -49,15 +52,16 @@ header {
 }
 
 .hero-content {
-    width: 1200px;
     display: flex;
     gap: 48px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-content h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
     color: #f9faf8;
 }
 
@@ -79,22 +83,6 @@ header {
     height: auto;
 }
 
-figure {
-    margin: 0;
-    padding: 0;
-}
-
-figcaption {
-    text-align: center;
-    font-size: 16px;
-    font-style: italic;
-    margin-top: 8px;
-}
-
-figcaption, figcaption a {
-    color: #e5e7eb;
-}
-
 .information {
     padding: 48px 16px;
     display: flex;
@@ -104,7 +92,6 @@ figcaption, figcaption a {
 }
 
 .information-content {
-    width: 1200px;
     display: flex;
     gap: 48px;
     justify-content: center;
@@ -175,7 +162,6 @@ blockquote .citation {
 }
 
 .call-to-action-content {
-    width: 1200px;
     background-color: #3882f6;
     display: flex;
     justify-content: flex-start;
@@ -210,7 +196,5 @@ blockquote .citation {
 footer {
     font-size: 14px;
     color: white;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
