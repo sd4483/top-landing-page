@@ -168,6 +168,13 @@ blockquote .citation {
     margin-top: 0;
 }
 
+.call-to-action {
+    padding: 48px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+
 footer {
     font-size: 14px;
     color: white;
