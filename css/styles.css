@@ -55,7 +55,6 @@ header {
     justify-content: space-between;
 }
 
-
 .hero-content h1 {
     font-size: 48px;
     font-weight: 900;
@@ -94,6 +93,51 @@ figcaption {
 
 figcaption, figcaption a {
     color: #e5e7eb;
+}
+
+.information {
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-content {
+    width: 1200px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: #1f2937;
+}
+
+.info-image {
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-image p {
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+}
+
+.information-content img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 footer {
